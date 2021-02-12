@@ -1,0 +1,100 @@
+@font-face { 
+    font-family: 'Montserrat-Regular';
+    src: url('fonts/montserrat/Montserrat-Regular.otf');
+}
+
+@font-face { 
+    font-family: 'Montserrat-Medium';
+    src: url('fonts/montserrat/Montserrat-Medium.otf');
+}
+
+@font-face { 
+    font-family: 'Montserrat-Light';
+    src: url('fonts/montserrat/Montserrat-Light.otf');
+}
+
+@font-face { 
+    font-family: 'Montserrat-ExtraLight';
+    src: url('fonts/montserrat/Montserrat-ExtraLight.otf');
+}
+
+@font-face { 
+    font-family: 'Montserrat-Thin';
+    src: url('fonts/montserrat/Montserrat-Thin.otf');
+}
+
+@font-face { 
+    font-family: 'Roboto-Light';
+    src: url('fonts/roboto/roboto-light.ttf');
+}
+
+@font-face { 
+    font-family: 'Roboto-Regular';
+    src: url('fonts/roboto/Roboto-Regular.ttf');
+}
+
+@font-face { 
+    font-family: 'Roboto-Medium';
+    src: url('fonts/roboto/Roboto-Medium.ttf');
+}
+
+@font-face { 
+    font-family: 'Roboto-Bold';
+    src: url('fonts/roboto/Roboto-Bold.ttf');
+}
+
+@font-face { 
+    font-family: 'PublicSans-Light';
+    src: url('fonts/public_sans/PublicSans-Light.ttf');
+}
+
+@font-face { 
+    font-family: 'PublicSans-Regular';
+    src: url('fonts/public_sans/PublicSans-Regular.ttf');
+}
+
+@font-face { 
+    font-family: 'PublicSans-Medium';
+    src: url('fonts/public_sans/PublicSans-Medium.ttf');
+}
+
+@font-face { 
+    font-family: 'PublicSans-SemiBold';
+    src: url('fonts/public_sans/PublicSans-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: 'Graphik';
+    src: url('fonts/graphik-cufonfonts/GraphikExtralight.otf');
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: 'Graphik';
+    src: url('fonts/graphik-cufonfonts/GraphikLight.otf');
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: 'Graphik';
+    src: url('fonts/graphik-cufonfonts/GraphikRegular.otf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Graphik';
+    src: url('fonts/graphik-cufonfonts/GraphikMedium.otf');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Graphik';
+    src: url('fonts/graphik-cufonfonts/GraphikSemibold.otf');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Graphik';
+    src: url('fonts/graphik-cufonfonts/GraphikBold.otf');
+    font-weight: 700;
+}

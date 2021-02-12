@@ -1,0 +1,325 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+    box-sizing: border-box;
+    font-family: Graphik;
+    font-weight: 200;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: 500;
+    margin: 0.3em 0 0.2em 0;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 1.8em;
+}
+
+h3 {
+    font-weight: 400;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+nav ul {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    
+    padding-right: 50px;
+    background-color: white;
+    z-index: 10;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+nav li {
+    margin: 1.2em 1em;
+    display: inline-block;
+    width: 80px;
+    text-align: center;
+}
+
+nav a {
+    transition-delay: 200ms;
+}
+
+nav a:hover {
+    color: black;
+    font-weight: 500;
+}
+
+h2 a, .content a {
+    color: #31a3de;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    width: 100%;
+}
+
+.wrapper:nth-child(2n+1)
+{
+    background-color: #fff;
+}
+
+.wrapper:nth-child(2n)
+{
+    background-color: #f7f7f7;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav li {
+    z-index: 1;
+}
+
+.nav a {
+    display: block;
+    width: 120px;
+    padding: 20px 0;
+    z-index: 2;
+    
+    font: normal small-caps normal 1em Montserrat-Light, sans-serif;
+    letter-spacing: 0.15em;
+    text-transform: lowercase;
+    text-align: center;
+    
+    color: #807c7c;
+    transition-duration: 250ms;
+}
+
+.nav a::after {
+    content:"";
+    display: block;
+    height: 1px;
+    width: 100%;
+    margin-top: 0.8em;
+    
+    background-color: #e3e3e3;
+}
+
+.nav a:hover::after, .nav a:active::after {
+    background-color: black;
+}
+
+.nav a:hover {
+    color: black;
+}
+
+
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 45%;
+    
+    padding: 1em 0 1.5em 0;
+}
+
+ul, p {
+    text-align: justify;
+    line-height: 1.5em;
+    font-size: 0.95em;
+    color: #4a4a4a;
+}
+
+.content ul {
+    margin: 1.5em 0 1.5em 2.5em;
+}
+
+strong {
+    font-weight: 400;
+}
+
+.line {
+    display: flex;
+}
+
+.line:last-child {
+    margin-bottom: 80px;
+}
+
+.grid-element {
+    flex: 1;
+}
+
+.grid-element:first-child {
+    margin-left: 0!important;
+}
+
+.grid-element:last-child {
+    margin-right: 0!important;
+}
+
+.grid-element h3 {
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+#intro {
+    font: normal normal normal 0.78em Montserrat-Light, sans-serif;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#home .content {
+    width: 35%;
+}
+
+#home {
+    min-height: 100vh;
+    background: white;
+    border-bottom: 1px solid #eaeaea;
+}
+
+#social {
+    display: flex;
+    justify-content: center;
+    margin: 1em 0;
+}
+
+#social img{
+    height: 25px;
+    width: 25px;
+    
+    display: block;
+    margin: 10px 9px;
+}
+
+#skills {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#skills h3 {
+    margin: 1em 2em;
+    font-weight: 500;
+}
+
+#skills p {
+    width: 100%;
+}
+
+#jauges {
+    display: flex;
+}
+
+#experiences {    
+    justify-content: space-between;
+}
+
+#experiences .content {
+    margin-top: -130px;
+    padding-top: 130px;
+    
+    align-items: flex-start;
+    display: none;
+    width: 70%;
+}
+
+#xeelas:not(:target) 
+~ #ilotopia:not(:target) 
+~ #armor:not(:target) 
+~ #norde:not(:target) 
+~ #mindmaze {
+    display: flex!important;
+}
+
+#experiences::after {
+    content: "";
+    display: block;
+}
+
+#experiences .content:target {
+    display: flex;
+}
+
+#experiences h2 {
+    font: normal 400 normal 1.4em Graphik, sans-serif;
+    text-transform: capitalize;
+    
+    text-align: center;
+    
+    width: 100%;
+    margin: 1em 0 0.5em 0;
+}
+
+#experiences h2 a {
+    margin-left: 2px;
+    font-weight: inherit;
+    display: inline-block;
+}
+
+#experiences h3 {
+    font-size: 1.2em;
+    text-align: center;
+    margin: 1.2em 0 0.8em 0;
+}
+
+#experiences .line:not(:first-of-type) {
+    margin-top: 40px;
+}
+
+#experiences .grid-element {
+    margin: 0px 30px;
+}
+
+#experiences img {
+    height: 45px;
+    width: 45px;
+    display: block;
+    margin: auto;
+    opacity: 0.7;
+}
+
+.description {
+    width: 60%;
+    margin: 1.2em auto 3em auto;
+    text-align: justify;
+    text-align-last: center;
+}
+
+#projects {
+    padding: 2em 0;
+}
+
+#projects .grid-element {
+    margin: 1em 1.5em;
+    width: 280px;
+}
+
+#projects h2 {
+    margin: 2em 0 1em 0;
+}
+
+#projects h3 {
+    margin: 0.5em 0 1em 0;
+    font-size: 1em;
+    color: #4a4a4a;
+}
+
+#projects img {
+    height: 200px;
+    width: 100%;
+}
