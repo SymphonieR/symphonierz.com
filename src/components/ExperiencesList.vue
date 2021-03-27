@@ -22,34 +22,28 @@ export default {
                     role: 'Sotfware Engineer',
                     from: 'Sept 2020',
                     to: 'Today',
-                    icon: '/static/img/aws.png',
-                    description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`
+                    icon: '/static/img/aws.png'
                 },
                 {
                     company: 'MindMaze',
                     role: 'R&D Engineer',
                     from: 'Feb 2019',
                     to: 'Aug 2020',
-                    icon: '/static/img/mindmaze.png',
-                    description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                        Ut enim ad minim veniam, quis nostrud exercitatix ea commodo consequat.`
+                    icon: '/static/img/mindmaze.png'
                 },
                 {
                     company: 'Xeelas',
                     role: 'Embbeded Engineer',
                     from: 'Jun 2019',
                     to: 'Dec 2019',
-                    icon: '/static/img/xeelas.png',
-                    description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmodo laboris nisi ut aliquip ex ea commodo consequat.`
+                    icon: '/static/img/xeelas.png'
                 },
                 {
                     company: 'Ilotopia',
                     role: 'VR Developer',
                     from: 'Jan 2020',
                     to: 'Apr 2020',
-                    icon: '/static/img/logo_ile_de_nantes_blue.svg',
-                    description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`
+                    icon: '/static/img/logo_ile_de_nantes_blue.svg'
                 }
             ],
             education: [

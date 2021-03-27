@@ -1,17 +1,14 @@
 <template>
-    <section id="process" class="wrapper medium-background">
-        <h1>Work process</h1>
-        <ul id="process-step-list">
-            <li v-for="(currentStep, index) in steps" :key="currentStep.name" class="process-step-element"
-            data-aos="zoom-in" data-aos-duration="300">
-                <div class="process-icon">
-                    <img :src="currentStep.icon"/>
-                </div>
-                <h2>{{ index + 1 }}. {{ currentStep.name }}</h2>
-                <p>{{ currentStep.description }}</p>
-            </li>
-        </ul>
-    </section>
+    <ul id="process-step-list">
+        <li v-for="(currentStep, index) in steps" :key="currentStep.name" class="process-step-element"
+        data-aos="zoom-in" data-aos-duration="300">
+            <div class="process-icon">
+                <img :src="currentStep.icon"/>
+            </div>
+            <h2>{{ index + 1 }}. {{ currentStep.name }}</h2>
+            <p>{{ currentStep.description }}</p>
+        </li>
+    </ul>
 </template>
 
 <script>

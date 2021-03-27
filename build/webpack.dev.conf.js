@@ -57,6 +57,11 @@ const devWebpackConfig = merge(baseWebpackConfig, {
       template: 'index.html',
       inject: true
     }),
+    new HtmlWebpackPlugin({
+      filename: 'request-a-quote.html',
+      template: 'request-a-quote.html',
+      inject: true
+    }),
     // copy custom static assets
     new CopyWebpackPlugin([
       {
