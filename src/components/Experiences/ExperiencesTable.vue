@@ -6,7 +6,6 @@
                     <span class="period-content">
                         {{ currentExperience.from }} - {{ currentExperience.to }}
                     </span>
-                    
                 </span>
             </td>
             <td class="row-description">

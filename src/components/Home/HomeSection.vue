@@ -1,52 +1,43 @@
 <template>
-    <section id="home" class="wrapper height-100vh">
+    <section id="home" class="wrapper flex-column flex-justify-center flex-align-center height-100vh">
         <div class="content">
             <logo-image id="logo"></logo-image>
-            <h1>Building for your needs</h1>
+            <p id="moto">Building for your needs</p>
             <p>
-                I am a jack of all trades and build softwares, websites, games, to 3D models. I believe in elegance and simplicity over complexity.
+                I believe in elegance and simplicity over complexity.
                 I will use the best tool for your need, not the latest trendy technology for the sake of buzzword.
             </p>
-            <p>
-                My commitment is straightforward: makes your idea happens.
-            </p>
-            <div id="button-wrapper">
-                <red-rounded-button-link text-content="Hire me" href="#contact"></red-rounded-button-link>
-                <red-rounded-button-link text-content="Download CV" href=""></red-rounded-button-link>
-            </div>
-            <a href="#experiences" id="scroll">Scroll</a>
         </div>
     </section>
 </template>
 
 <script>
-import RedRoundedButtonLink from './RedRoundedButtonLink.vue'
 import LogoImage from './LogoImage.vue'
 
 export default {
     components: {
-        RedRoundedButtonLink,
         LogoImage
     }
 }
 </script>
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500&display=swap');
-
-h1 {
-    font-size: 1.5em;
+<style scoped>
+#moto {
+    font-size: 1.4em;
     font-family: Montserrat;
     text-transform: lowercase;
     font-variant: small-caps;
-    letter-spacing: 5px;
+    letter-spacing: 7px;
     font-weight: 500;
     text-align: center;
     margin-top: 1em;
+    color:#070748 !important;
 }
 
 p {
-    font-size: 1.2em;
+    font-size: 0.95em;
     margin: 0.5em 0;
+    line-height: 25px;
+    color: #010108a3 !important;
 }
 
 .content {

@@ -58,12 +58,28 @@ a {
 }
 
 .wrapper {
+    width: 100%;
+}
+
+.flex-1 {
+    flex: 1
+}
+
+.flex-row {
+    display: flex;
+}
+
+.flex-column {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+}
 
-    width: 100%;
+.flex-justify-center {
+    justify-content: center;
+}
+
+.flex-align-center {
+    align-items: center;
 }
 
 .height-100vh {
@@ -130,4 +146,20 @@ a {
 
 .cursor-pointer {
     cursor: pointer;
+}
+
+.width-70 {
+    width: 65%;
+}
+
+.width-65 {
+    width: 65%;
+}
+
+.width-60 {
+    width: 60%;
+}
+
+.width-30 {
+    width: 30%;
 }

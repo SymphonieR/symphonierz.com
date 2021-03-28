@@ -1,5 +1,5 @@
 <template>
-    <section id="projects" class="wrapper">
+    <section id="projects" class="wrapper flex-center flex-justify-center flex-align-center">
         <h1>Projects</h1>
         <div class="content">
             <div class="project-element" v-for="(currentProject) in projects" :key="currentProject.name">

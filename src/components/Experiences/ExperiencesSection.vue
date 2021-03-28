@@ -1,5 +1,5 @@
 <template>
-    <section id="experiences" class="wrapper height-100vh"
+    <section id="experiences" class="wrapper flex-row flex-justify-center flex-align-center height-100vh"
       data-aos="fade-right" data-aos-duration="500" data-aos-offset="200">
         <div class="content">
             <h1>About</h1>

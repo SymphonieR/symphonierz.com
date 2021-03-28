@@ -1,5 +1,5 @@
 <template>
-    <section id="contact" class="wrapper medium-background" ref="contact">
+    <section id="contact" class="wrapper flex-column flex-justify-center flex-align-center medium-background" ref="contact">
         <div class="content">
             <form id="contact-type-form">
                 <h2>Let's start!</h2>
@@ -126,38 +126,6 @@ input[type="date"], textarea {
     border-radius: 5px;
 
     font-weight: 500;
-}
-
-input[type="submit"] {
-    margin: 0 auto;
-}
-
-textarea {
-    resize: none;
-}
-
-fieldset {
-    border: none;
-}
-
-form > fieldset {
-    margin: 1em;
-}
-
-.grid-2 {
-    display: flex;
-}
-
-.grid-2 fieldset {
-    flex: 1;
-}
-
-.grid-2 > fieldset:first-child {
-    margin-right: 0.3em;
-}
-
-.grid-2 > fieldset:last-child {
-    margin-left: 0.3em;
 }
 
 .margin-top-1em {

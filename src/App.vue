@@ -9,13 +9,13 @@
 </template>
 
 <script>
-import MainMenu from './components/MainMenu'
-import HomeSection from './components/HomeSection'
-import ExperiencesSection from './components/ExperiencesSection'
-import ProjectsSection from './components/ProjectsSection'
-import ContactSection from './components/ContactSection'
-import ProcessSection from './components/ProcessSection'
-import ContactForm from './components/ContactForm'
+import MainMenu from './components/Navigation/MainMenu.vue'
+import HomeSection from './components/Home/HomeSection.vue'
+import ExperiencesSection from './components/Experiences/ExperiencesSection.vue'
+import ProjectsSection from './components/Projects/ProjectsSection.vue'
+import ContactSection from './components/Contact/ContactSection.vue'
+import ProcessSection from './components/Process/ProcessSection.vue'
+import ContactForm from './components/Contact/ContactForm.vue'
 
 import AOS from 'aos'
 import 'aos/dist/aos.css'
